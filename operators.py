@@ -62,8 +62,8 @@ x = 5
 # print(x)
 
     # 3) Comparison Operator:-
-x = 5
-y = 2
+# x = 5
+# y = 2
 
 # print(x == y)
 # print(x > y)
@@ -112,4 +112,93 @@ y = 2
 
 
     # 6) ternary Operator:-
+# balls = "yellow"
+
+# result = "balls are green" if balls == "green" else "balls are yellow"
+# print(result)
+
+# x = 15
+# y = 100
+
+# result = f"{x} is greater" if x > y else f'{y} is greater'
+# print(result)
+
+# age = int(input("Enter your age: "))
+
+# eligibility = "you are not eligible" if age < 18 else "you are eligibile"
+
+# print(eligibility)
+
+
+# if age >= 0 ---> please enter a valid age.
+# if age < 18 ---> please apply after few years.
+# if age == 18 ---> congrats..! you have just turned 18 and you are eligible.
+# if age > 18 and age < 45 ---> "you are eligible, get your voting card soon"
+# if age > 45  and age <60 ----> "hurry..! you are already late to get voting card"
+# if age > 60 ----> "Please take rest..! No need to vote."
+
+# age = int(input("Enter your age: "))
+
+# result = "please enter a valid age" if age <= 0 else "please apply after few years" if age < 18 else "congrats..! you have just turned 18 and you are eligible." if age == 18 else "you are eligible, get your voting card soon" if age > 18 and age <= 45 else "hurry..! you are already late to get voting card" if age >45 and age <= 60 else "Please take rest..! No need to vote."
+
+# print(result)
+
+###########################################################
+
     # 7) Bitwise Operator:-
+    
+# print(23 & 45)   #5
+# print(bin(23))
+# print(bin(45))
+# print(bin(5))
+
+
+# print(56 & 89)
+# print(bin(56))
+# print(bin(89))
+# print(bin(24))
+
+
+# print(23 | 45)
+
+# print(bin(23))
+# print(bin(45))
+# print(bin(63))
+
+
+# print(56 | 89)
+
+# print(bin(56))
+# print(bin(89))
+# print(bin(121))
+
+
+# print(23 ^ 45)
+
+# print(bin(58))
+
+
+
+# print(56 ^ 89)
+
+# print(int("1100001", 2))  97
+
+# print(int('11111110', 2))
+
+
+# print(10 >> 1)
+
+# print(20 >> 1)
+
+# print(56 >> 1)
+
+# print(56 >> 1)
+# print(bin(56))
+# print(int("11100", 2))
+
+
+# print(int('1110', 2))
+
+print(56 << 3)
+
+print(int('1110000', 2))
