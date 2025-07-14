@@ -181,3 +181,236 @@
 #         print("Yes there is a special charecter")
 #     else:
 #         print("No Special Charecter")
+
+
+######################################################
+
+                    # SUNDAY CLASS #
+                    
+# while loop:-
+
+# 1) get the alphabetic charecters from bellow set and 
+# form a string and print {use while loop}
+
+# set1 = {"A", 2, 6, "k", "H", "$", 9, 0, 5.5, "I", "A", "L"}
+# list1 = list(set1)
+
+# count = 0
+# str1 = ""
+# while count < len(list1):
+#     if str(list1[count]).isalpha():
+#         str1 += list1[count]
+#         count +=1
+#     else:
+#         count +=1
+#         pass
+# print(str1)
+    
+# NOTE:-
+# x = 2
+# y = "2"
+
+# print(x.isalpha())  #AttributeError: 'int' object has no attribute 'isalpha'
+
+# print(y.isalpha())
+
+
+
+# 2) use str1 and iterate through it and get the integers which are
+# odd and form those numbers cubes list. print the list of cubes.
+
+# str1 = "dswk219u034&^$&^ddas95jkqwd3"
+
+# count = 0
+# cubes = []
+# while count < len(str1):
+#     if str1[count].isdigit():
+#         if int(str1[count]) % 2 != 0:
+#             cubes.append(int(str1[count]) ** 3)
+#             count +=1
+#         else:
+#             count +=1
+#             pass
+#     else:
+#         count +=1
+#         pass
+# print(cubes)
+
+
+
+str2 = "ASDFG!@#$%23456DFGHfgh"
+# use while loop and print special charecters
+
+# i = 0
+
+# while i < len(str2):
+#     if str2[i].isalnum():
+#         i +=1
+#         pass
+#     else:
+#         print(str2[i])
+#         i +=1
+       
+# ask user how many fibonacci numbers want.print fibonacci numbers.
+# 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 
+
+# num_of_nums = int(input("How many numbers of fibonacci you want: "))
+
+# count = 0
+# num1 = 0
+# num2 = 1
+# print(num1)
+# print(num2)
+
+# while count < num_of_nums-2:
+#     num3 = num1 + num2
+#     print(num3)
+#     num1 = num2
+#     num2 = num3
+#     count +=1
+    
+#########################################
+
+# with the help of while loop print a tuple of all numbers 
+# which are divisible by 7 and 9 in 1 to 100 range
+
+
+# count = 1
+# list1 = []
+# while count < 1000:
+#     if count % 7 == 0 and count % 9 == 0:
+#         list1.append(count)
+#         count +=1
+#     else:
+#         count +=1
+#         pass
+# print(tuple(list1)) 
+
+######################################################
+
+# for loop :-
+
+# print 1 to 10 all numbers with for loop
+
+# for i in range(1, 10):
+#     print(i)
+
+
+# print A to Z  with for loop
+
+# start = 65
+
+# while start < 91:
+#     print(chr(start))
+#     start +=1
+    
+
+# for i in range(65, 91):
+#     print(chr(i))
+
+
+# print all floats from list with the help of for loop 
+
+# list1 = [1, 2, "3", 'g', 6.5, "9.0", 5, 3.3]
+
+
+# for i in list1:
+#     if type(i) == float:
+#         print(i)
+#     else:
+#         pass
+
+
+#######################################
+
+# use for loop and print all the prime numbers from 10 to 100
+
+#######################################
+
+# print a table of entered number by user using while 
+# loop as well as for loop
+
+# num = int(input("Enter a number: " ))
+# count = 1
+# while count < 11:
+#     print(f"{num} * {count} = {num * count}")
+#     count +=1
+    
+# num = int(input("Ennter a number: "))
+# for i in range(1, 11):
+#     print(f"{num} * {i} = {num * i}")
+    
+##############################################
+
+list1 = [23, 45, 8, 1, 90, 250, 7, 45, 34, 670, 19, 27]
+
+# with the help of while loop and foor foop find the 
+# largest number
+
+# count = 0
+# largest = list1[0]
+
+# while count < len(list1):
+#     if largest < list1[count]:
+#         largest = list1[count]
+#     else:
+#         pass
+#     count +=1
+# print(largest)
+
+
+# largest = list1[0]
+# for i in list1:
+#     if largest < i:
+#         largest = i
+#     else:
+#         pass
+# print(largest)
+
+##########################################
+
+set1 = {23, "A", 45, 5.5, 1,"%", 2, 90, 67, -6.5, "Mango", 450, 4, -7, 0, -11.5, 29, 5}
+# from this set1 find the smallest integer with the help of for loop and while loop
+
+# tup1 = tuple(set1)
+# count = 0
+# smallest = tup1[0]
+
+# while count < len(tup1):
+#     if type(tup1[count]) == int:
+#         if smallest > tup1[count]:
+#             smallest = tup1[count]
+#         else:
+#             pass
+#     else:
+#         pass
+#     count +=1
+# print(smallest)
+
+
+# l1 = ["A", 5, 9.5, True, {1, 2}, "mango", 11.5, 0, -4]
+# l2 = [1, 'Mango', 5.0, 'A', {2, 1}, False, -4, "M"]
+
+# with the help of for loop create a list of common 
+# elements from l1 and l2 
+# l3 = []
+# for i in l1:
+#     if i in l2:
+#         l3.append(i)
+#     else:
+#         pass
+# print(l3)
+
+
+#############################
+
+# str1 = "asnnsk quyaxx9037ede xlii"
+# print this string in reverse format using for loop 
+
+# APPLE
+# start : end : step
+# -1   : 
+
+# for i in range(-1, -len(str1)-1, -1):
+#     print(str1[i], end="")
+    
