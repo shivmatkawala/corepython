@@ -369,7 +369,7 @@ list1 = [23, 45, 8, 1, 90, 250, 7, 45, 34, 670, 19, 27]
 
 ##########################################
 
-set1 = {23, "A", 45, 5.5, 1,"%", 2, 90, 67, -6.5, "Mango", 450, 4, -7, 0, -11.5, 29, 5}
+# set1 = {23, "A", 45, 5.5, 1,"%", 2, 90, 67, -6.5, "Mango", 450, 4, -7, 0, -11.5, 29, 5}
 # from this set1 find the smallest integer with the help of for loop and while loop
 
 # tup1 = tuple(set1)
@@ -413,4 +413,134 @@ set1 = {23, "A", 45, 5.5, 1,"%", 2, 90, 67, -6.5, "Mango", 450, 4, -7, 0, -11.5,
 
 # for i in range(-1, -len(str1)-1, -1):
 #     print(str1[i], end="")
+    
+############################################################
+
+
+# str1 = "ASDFGHJK"
+
+# index = 0
+
+# while index < len(str1):
+#     print(str1[index])
+#     index +=1
+    
+  
+# print 9 to 1 numbers.
+
+# count = 9
+# while count > 0:
+#     print(count)
+#     count -=1
+    
+#################################################
+
+# find all odd numbers from given list. [while / for]
+list1 = [23, True, "Hi", [4, 5, 6, 7], 90, 9, "Password@123"]
+
+# iterate through list
+# check whether the element from list1 is a number or not
+# check the number is even or odd
+# if odd print it
+# if even pass it
+
+# while loop
+
+# index = 0
+
+# while index < len(list1):
+#     if type(list1[index]) == int:
+#         if list1[index] % 2 != 0:
+#             print(list1[index])
+#         else:
+#             pass
+#     else:
+#         pass
+#     index +=1
+    
+
+
+# for loop 
+
+# for i in list1:
+#     if type(i) == int:
+#         if i % 2 != 0:
+#             print(i)
+#         else:
+#             pass
+#     else:
+#         pass
+            
+ 
+# find all odd numbers from given list. [while / for]
+# list1 = [23, True, "Hi", [4, 5, 6, 7], 90, 9, "Password@123", [17, "jai", 6, False], (78, 56, 33, "Hello")]
+
+# index = 0 
+# while index < len(list1):
+#     if type(list1[index]) == int:
+#         if list1[index] % 2 != 0:
+#             print(list1[index])
+#         else:
+#             pass
+#     elif type(list1[index]) == list:
+#         i = 0
+#         while i < len(list1[index]):
+#             if type(list1[index][i]) == int:
+#                 if list1[index][i] % 2 != 0:
+#                     print(list1[index][i])
+#                 else:
+#                     pass
+#             else:
+#                 pass
+#             i +=1
+#     elif type(list1[index]) == tuple:
+#         j = 0
+#         while j < len(list1[index]):
+#             if type(list1[index][j]) == int:
+#                 if list1[index][j] % 2 != 0:
+#                     print(list1[index][j])
+#                 else:
+#                     pass
+#             else:
+#                 pass
+#             j +=1
+#     else:
+#         pass
+#     index +=1
+
+# for i in list1:
+    # if type(i) == int:
+    #     if i % 2 != 0:
+    #         print(i)
+    #     else:
+    #         pass
+    # elif type(i) == list:
+    #     for j in i:
+    #         if type(j) == int:
+    #             if j % 2 != 0:
+    #                 print(j)
+    #             else:
+    #                 pass
+    #         else:
+    #             pass
+    # elif type(i) == tuple:
+    #     for k in i:
+    #         if type(k) == int:
+    #             if k % 2 != 0:
+    #                 print(k)
+    #             else:
+    #                 pass
+    #         else:
+    #             pass
+    # else:
+    #     pass
+        
+# import time
+# list2 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+# for i in list2:
+#     for j in i:
+#         print(j)
+        
+    
     
