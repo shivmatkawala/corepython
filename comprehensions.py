@@ -66,6 +66,60 @@
 #     print(i, end=" ")
     
     
+# create a tuple comprehension where all the 
+# numbers in between 100 to 200 
+# divisible by 3 and 5 are available
+
+# nums_div_by_3_5 = (i for i in range(100, 200) if i % 3 == 0 and i % 5 == 0)
+# print(nums_div_by_3_5)
+
+# for i in nums_div_by_3_5:
+#     print(i, end=" <-> ")
 
 
+# write a tuple comprehension which is printing
+# all the capitalize words from a string.
 
+# str1 = "My dear Bujji..! you are so lovely, Lets work together and kill our Enemy"
+
+
+# l1 = str1.split(" ")
+# # print(l1)
+
+# capitalize_words = (i for i in l1 if i.istitle())
+
+# for i in capitalize_words:
+#     print(i, end=", ")
+    
+
+###############################
+
+# Creare a set comprehension of -5 to 6 squares.
+
+# set1 = {i ** 2 for i in range(-5, 7)}
+# print(set1)
+
+
+# create a set comprehension where all the 
+# unique charecters from str1 are available
+
+# str1 = "This is mars Ursa Station. I am bobafet 2-0-4-5 agentic AI"
+
+# unique_chars = {i for i in str1}
+# print(unique_chars)
+
+
+l1 = [1, 2, 3, 4, 5, 9, 3, 6, 10]
+
+l2 = [3, 4, 5, 6, 7, 6, 5, 9, 19]
+
+# use l1 and l2 and create a set comprehension where from 
+# both the lists only common numbers will be there 
+# and no duplicate
+
+# commons = {i for i in l1 if i in l2}
+# print(commons)
+
+
+# new_way = set(l1) & set(l2)
+# print(new_way)
