@@ -109,9 +109,9 @@
 # print(unique_chars)
 
 
-l1 = [1, 2, 3, 4, 5, 9, 3, 6, 10]
+# l1 = [1, 2, 3, 4, 5, 9, 3, 6, 10]
 
-l2 = [3, 4, 5, 6, 7, 6, 5, 9, 19]
+# l2 = [3, 4, 5, 6, 7, 6, 5, 9, 19]
 
 # use l1 and l2 and create a set comprehension where from 
 # both the lists only common numbers will be there 
@@ -123,3 +123,36 @@ l2 = [3, 4, 5, 6, 7, 6, 5, 9, 19]
 
 # new_way = set(l1) & set(l2)
 # print(new_way)
+###################################################
+
+
+
+# Dictionary Comprehension:-
+
+dict1 = {1:1, 2:4, 3:9, 4:16, 5:25, 6:36}
+dict2 = {'name':"shiv", 'age':32, 'email':'shiv@gmail.com'}
+dict3 = {'A':65, 'B':66, 'C':67, 'D':68, 'E':69}
+dict4 = {'countries': ['India', 'Rusia', 'USA', 'Singapore', 'China'], 'capitals':['Delhi', 'Moscow', 'Singapore', 'Bijing']}
+
+
+# all 1 to 11 numbers squares
+dict_squares = {i: i**2 for i in range(1, 11)}
+print(dict_squares)
+
+
+# all even 1 to 11 numbers cubes
+
+dict_cubes = {i: i ** 3 for i in range(1, 11) if i%2 == 0}
+print(dict_cubes)
+
+countries = ['India','Rusia', 'China', 'USA', 'Nepal']
+capitals = ['Delhi', 'Moscow', 'Bijing', 'Washington DC', 'Kathmandu']
+
+dict_country_caps = {countries[i]: capitals[i] for i in range(len(countries))}
+print(dict_country_caps)
+
+
+dict_chars_ascii = {chr(i): i for i in range(ord('A'), ord('Z')+1)}
+print(dict_chars_ascii)
+
+
