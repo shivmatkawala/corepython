@@ -58,3 +58,72 @@ str1 = "12,345,6789,99, 45 , 101, 20"
 # list1 = lambda x: math.prod([int(i.strip()) for i in x.split(',') if int(i)< 100])
 # print(list1(str1))
 
+#############################################
+
+
+# map:-
+
+# map is an inbuilt function which takes two
+# arguments
+# first argument is a lmbda function and second argument is 
+# iterable/ collection
+
+# list1 = [2, 3, 4, 5, 6]
+# list1_squares = list(map(lambda x: x**2, list1))
+# print(list1_squares)
+
+
+# with the help of map & lambda get the all even 
+# numbers from range of 12 to 45
+
+# even_nums = list(map(lambda x: x if x % 2 == 0 else None, range(12, 45)))
+# print(even_nums)
+
+
+# filter 
+
+# filter is an inbuilt function of python
+# It is used to filter out the values.
+
+# list1 = [2, 3, 4, 5, 6, 7, 8, 9]
+
+# only_odds = list(filter(lambda x: x if x%2 !=0 else None, list1))
+
+# print(only_odds)
+
+
+r1 = 'Apple@123'
+
+# filter the r1 and get only numbers 
+
+# only_nums = list(filter(lambda x: x if x.isdigit() else None, r1))
+# print(only_nums)
+
+
+# reduce
+
+# reduce is a method of functools library
+# it is used to get the single output of  an iterable
+
+list1 = [1, 2, 3, 4, 5, 6]
+
+from functools import reduce
+
+
+# total = reduce(lambda x, y : x+y, list1)
+# print(total)
+
+
+# find the maximum from list2
+# list2 = [2, 5, 8, 4, 3, 1]
+# maximum = reduce(lambda x, y: x if x > y else y, list2)
+# print(maximum)
+
+
+
+# sorted
+
+# list3 = [(1, 3), (2, 1), (4, 2)]  # [(2, 1), (4, 2), (1, 3)]
+
+# sorted_list3 = sorted(list3, key=lambda x: x[1])
+# print(sorted_list3)
