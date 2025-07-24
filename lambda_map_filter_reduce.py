@@ -127,3 +127,16 @@ from functools import reduce
 
 # sorted_list3 = sorted(list3, key=lambda x: x[1])
 # print(sorted_list3)
+
+list1= [2,4,3,5,8,7,1,6,0]
+add = 7
+def get_indices(lst, s):
+    for i in range(len(lst)):
+        for j in range(len(lst)):
+            if lst[i] + lst[j] == s:
+                print(i, j)
+            else:
+                pass
+
+
+get_indices(list1, add)
