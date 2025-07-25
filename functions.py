@@ -83,9 +83,98 @@
 
 # write a function which prints area of a right angle triangle
 
-def get_right_angle_triangle_area(height, base):
-    area = 0.5 * height * base
-    print(area)
+# def get_right_angle_triangle_area(height, base):
+#     area = 0.5 * height * base
+#     print(area)
     
-get_right_angle_triangle_area(10, 5)
-get_right_angle_triangle_area(20, 10)
+# get_right_angle_triangle_area(10, 5)
+# get_right_angle_triangle_area(20, 10)
+
+
+################################################
+
+# create a function which flattens a nested list.
+l1 = [[1,2], [3,4],[5,6],[7,8]] #--> nested list
+#l2 = [1,2,3,4,5,6,7,8]
+
+
+# def flatten_list(l): # function head
+#     fl  = []         # function body
+#     for i in l:
+#         for j in i:
+#             fl.append(j)
+#     print(fl)
+    
+# flatten_list(l1)     # function call
+
+
+###############################
+
+# def greet():
+#     print("Hello Students")
+
+# greet()
+
+####################################################
+# def greet(name):            # Positional arguments
+#     print(f"Hello {name}")
+    
+# greet('Manasa')
+# greet("Praveen")
+# greet("students")
+
+# def greet(girl, boy):
+#     print(f"Hello {girl}, you are a girl")
+#     print(f"Hello {boy}, you are a boy")
+    
+# greet("Manasa", "Praveen")
+# greet("Praveen", "Manasa")
+
+######################################################
+
+# def greet(name="Students"):  # default argument
+#     print(f"Hello {name}")
+    
+# greet()
+# greet("Manasa")
+# greet("Praveen")
+
+#########################################
+
+# def greet(person1, person2, person3, person4, person5):
+#     print(f"Hello {person1}")
+#     print(f"Hello {person2}")
+#     print(f"Hello {person3}")
+#     print(f"Hello {person4}")
+#     print(f"Hello {person5}")
+    
+# greet('vanishri', 'sushma', 'venkat', 'manasa', 'vennky')
+
+
+
+# def greet(*args):     # Variable Length Arguments
+#     for i in args:
+#         print(f"Hello {i}")
+
+# greet("Shwetha", 'Ashika', "Ganesh", "Mallesh", "Avinash", "Poojitha", "Surender", "Devi", "Satya", "Baji", "Anna", "Tai", "Doddanna")
+
+
+###################################
+# Keyword arguments
+# def greet(friend, student, wife, brother):
+#     print(f"Hello brother {brother}")
+#     print(f"Hello friend {friend}")
+#     print(f"Hello wife {wife}")
+#     print(f"Hello student {student}")
+    
+# greet(student="Chandra", brother="Lokesh", wife="Sujatha", friend="Sagar")
+
+##############################################
+
+# variable length keyword arguments
+
+def greet(**kwargs):
+    for key, value in kwargs.items():
+        print(key, value)
+        
+greet(dog='Tony', cat='mangla', city='hyderabad', password='chimpu@123', subject='physics', sea='arabian')
