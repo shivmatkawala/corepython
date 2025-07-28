@@ -287,36 +287,45 @@ dict1 = {2:4, 6:36, 9:81, 4:16, 5:25, 8:64, 1:1, 3:9}
 # right_angle_triangle --> enter a base, enter a height --> area and perimeter 
 
 
-import math
+# import math
 
-def get_area_peri(shape: str):
-    if shape.lower() == "circle":
-        r = float(input("enter a radius of circle: "))
-        area = math.pi * (r ** 2)
-        return f"area of a circle with {r} raadius is {area}"
+# def get_area_peri(shape: str):
+#     if shape.lower() == "circle":
+#         r = float(input("enter a radius of circle: "))
+#         area = math.pi * (r ** 2)
+#         return f"area of a circle with {r} raadius is {area}"
     
-    elif shape.lower() == "square":
-        side = float(input("enter a side of square: "))
-        area = side * side
-        return f"area of a square with side {side} is {area}"
+#     elif shape.lower() == "square":
+#         side = float(input("enter a side of square: "))
+#         area = side * side
+#         return f"area of a square with side {side} is {area}"
     
-    elif shape.lower() == "rectangle":
-        length = float(input("Enter a length of a rectangle: "))
-        width = float(input("Ennter a width of rectangle: "))
+#     elif shape.lower() == "rectangle":
+#         length = float(input("Enter a length of a rectangle: "))
+#         width = float(input("Ennter a width of rectangle: "))
         
-        area = length * width
-        return f"area of a rectangle with length {length} and width {width} is {area}"
+#         area = length * width
+#         return f"area of a rectangle with length {length} and width {width} is {area}"
     
-    elif shape.lower() == "rta":
-        height = float(input("enter a height of right angle triangle: "))
-        width = float(input("Enter a width of right angle triangle: "))
+#     elif shape.lower() == "rta":
+#         height = float(input("enter a height of right angle triangle: "))
+#         width = float(input("Enter a width of right angle triangle: "))
         
-        area = height * width * 0.5
-        return f"area of a right angle triagle with height {height} and width {width} is {area}"
-    else:
-        return "I dont know about this shape. sorry..!"
+#         area = height * width * 0.5
+#         return f"area of a right angle triagle with height {height} and width {width} is {area}"
+#     else:
+#         return "I dont know about this shape. sorry..!"
     
-print(get_area_peri('rectangle'))
+# print(get_area_peri('rectangle'))
         
+shiva_color = 'black'
+
+if shiva_color == 'black':
+    print('black')
+else:
+    print('white')
+
+
+
 
 
